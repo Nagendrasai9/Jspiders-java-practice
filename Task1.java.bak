@@ -1,0 +1,26 @@
+class Task1 
+{
+	public static void main(String[] args) 
+	{
+		int month=2;
+		if (month>0 && month<=12)
+		{
+			if (month==2)
+			{
+				System.out.println("28 Days");
+			}
+			else if (month==4||month==6|| month==9||month==11)
+			{
+				System.out.println("30 Days");
+			}
+			else
+			{
+				System.out.println("31 Days");
+			}
+		}
+		else
+		{
+			System.out.println("Enter number only in the range of (0-12)");
+		}
+	}
+}
